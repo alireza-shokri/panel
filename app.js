@@ -121,7 +121,7 @@ function btns2_hed(event){
 function btns3_hed(event){
     clear_special(btns3)
     event.target.classList.add('special')
-
+    write_table()
 }
 
 // do write
@@ -153,6 +153,7 @@ function write_table(){
             do_write(list_onelevel_notpanel)
     }
 
+    
 }
 
 btns.forEach(function(btn){
